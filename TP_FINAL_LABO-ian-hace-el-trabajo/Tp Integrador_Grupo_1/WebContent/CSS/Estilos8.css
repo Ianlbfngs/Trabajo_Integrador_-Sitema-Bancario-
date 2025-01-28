@@ -1,0 +1,579 @@
+@charset "ISO-8859-1";
+
+/*general */
+
+.container{
+	min-height:100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+body {
+ 
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+footer {
+    background-color: #959595;
+    height: 100px;
+    width: auto;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    margin-top: 30px;
+    
+}
+
+.header-design {
+    background-color: #004aad;
+    height: 100px;
+    width: 100%;
+    padding: 0 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-design h2 {
+    color: #fff;
+    margin: 0;
+}
+
+.header-design a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: auto; 
+}
+
+
+.titulo h2
+{
+	margin-left: 30px;
+}
+
+/* Login */
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 550px;
+    width: 100%;
+    display: block;
+    min-height: 45vh; 
+    margin: 60px auto 0 auto;
+}
+
+.login-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 65px;
+}
+
+.form-group {
+    margin: 0 20px 25px 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 17px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* menus */
+
+.panel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem;
+    max-width: 1400px; 
+    margin: auto; 
+}
+
+.panel-menu-title { 
+    background-color: #004aad;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    text-align: left;
+    max-width: 550px;
+    width: 100%;
+    display: block;
+    flex: 0 0 20%;
+    margin: 0 1rem 0 2rem; /
+}
+
+.panel-menu-title h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.menu-list {
+	margin-top: 90px;
+	margin-left: -20px;
+	margin-right: -140px;
+    flex: 1;
+    text-align: center;
+}
+
+.menu-list nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.2rem 0;
+}
+
+.menu-list nav ul li {
+    margin: 0.5rem 0; 
+}
+
+.menu-list nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    background-color: #fff;
+    padding: 1.2rem 2.5rem; 
+    border: 1px solid #004aad;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4rem; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-sizing: border-box;
+    width: 70%
+}
+
+.menu-list nav ul li a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+
+
+
+/* css tabla */
+.section-tabla{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.section-tabla a{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin-top: 35px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: medium;
+    margin-left: auto;
+    margin-right: 50px;
+    max-height: 20px;
+}
+
+
+.section-tabla table{
+
+
+    table-layout: fixed;
+    border: 20px solid white;
+    background-color: black;
+
+
+}
+
+.tabla-larga{
+    width: 84%;
+    max-width: 84%;
+}
+
+.tabla-corta{
+    width: 84%;
+    max-width: 84%;
+}
+
+
+.section-tabla {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+
+.section-tabla th, .section-tabla td {
+    background-color: white;
+    padding: 8px;
+    text-align: center;
+    word-wrap: break-word;
+    border: 1px solid #ddd; 
+
+}
+
+.section-tabla th {
+    width: 100px; 
+    background-color: #f2f2f2; 
+    font-weight: bold;
+}
+
+
+/*altas*/
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    min-height: 45vh; 
+    margin: 60px auto 0 auto;
+}
+
+
+
+.form-alta label {
+    display: block;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.form-alta  input {
+    width: 90%;
+    height: 20px;
+    padding: 6px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.form-alta  button {
+	width: 93%;
+    height: 50px;
+    padding: 6px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.form-alta  select{
+	width: 93%;
+    height: 35px;
+    padding: 6px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.form-alta input[type="checkbox"] {
+    width: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+/*Baja*/
+
+.Baja-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1800px;
+    width: 100%;
+    display: block;
+    min-height: 35vh; 
+    margin: 20px auto 0 auto;
+}
+
+.Baja-container2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    display: block;
+    min-height: 35vh; 
+    margin: 20px auto 0 auto;
+}
+
+.form-baja label {
+    display: block;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.form-baja  input {
+	width: 20%;
+    height: 20px;
+    padding: 6px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.form-baja  button {
+	width: 20%;
+    height: 40px;
+    padding: 6px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-left: 20px;
+    
+}
+
+
+.section-tabla-baja {
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+.section-tabla-baja table{
+    table-layout: auto;
+    border: 10px solid white;
+    background-color: black; 
+    margin-left: 9px;
+}
+
+.section-tabla-baja th, .section-tabla-baja td {
+    background-color: white;
+    padding: 2px;
+    text-align: center;
+    word-wrap: break-word;
+    border: 1px solid #ddd; 
+}
+
+.section-tabla-baja th {
+    width: auto; 
+    background-color: #f2f2f2; 
+   
+}
+
+/* autorizacion de prestamos*/
+.autorizacion-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1300px;
+    width: 100%;
+    display: block;
+    min-height: 20vh; 
+    margin: 20px auto 0 auto;
+}
+
+/* pagar prestamos*/
+.Pagoprestamo-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1400px;
+    width: 100%;
+    display: block;
+    min-height: 20vh; 
+    margin: 20px auto 0 auto;
+}
+
+/* Informacion Personal */
+
+.form-container1 {
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  width: 100%;
+  min-height: 45vh; 
+  margin: 60px auto 0 auto;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 25px; 
+}
+
+.form-col {
+  flex: 1;
+  margin-top: 50px;
+  
+}
+
+.form-info {
+  margin-bottom: 10px;
+    margin-left: 35px;
+    
+}
+
+
+.form-container1 h3 {
+  text-align: center;
+  color: #333;
+    margin-left: 100px;
+}
+
+.form-info label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.form-info input[type="text"],
+.form-info input[type="email"],
+.form-info input[type="password"],
+.form-info input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+    margin-left: 100px;
+}
+
+.form-info button {
+  width: 400px;
+  padding: 17px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.form-info button:hover {
+  background-color: #0056b3;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ddd;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/*Seleccion Cuenta */
+
+
+.Select-cuenta label{
+    display: auto;
+    margin-bottom: 5px;
+    color: #333;
+    margin: auto 20px 10px 20px;
+}
+
+.Select-cuenta select{
+	width: 350px;
+    height: 35px;
+    padding: 6px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin: auto 20px 25px 20px;
+}
+
+.boton-accion{
+    transition-duration: 0.4s;
+}
+
+.boton-accion:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+input[type=text],input[type=number]{
+    height: 30px;
+}
+
+#tabla_paginada_prestamos_wrapper{
+    width: 90%;
+
+}
+
